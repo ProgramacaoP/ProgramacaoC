@@ -39,6 +39,8 @@ int main() {
     printf("Area: %.2f\n", Area);
     printf("PIB: %.2f\n", PIB);
     printf("Numero de Pontos Turisticos: %d\n", PontosTuristicos);  
+    printf("A Densidade populaçional é: %f \n", DensidadePopulacional);
+    printf("O Pib Per Capta é de: %f \n", PibPerCapta);
 
     return 0;
 
