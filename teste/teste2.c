@@ -9,11 +9,11 @@ int main() {
     char Cidade[20] = "Salvador";
     int Populacao = 2418000;
     float Area = 693.8;
-    float PIB = 21.8;
+    float PIB = 62.954;
     int PontosTuristicos = 20;
     //Inserindo novas variáveis par o nivel intermediário
     float DensidadePopulacional = Populacao / Area;
-    float PibPerCapta = PIB / Populacao;
+    float PibPerCapta = Populacao / PIB;
 
     // Abaixo solicitação de entrada de dados para cada atributo da carta
     printf("Digite o Estado: ");
@@ -39,8 +39,8 @@ int main() {
     printf("Area: %.2f\n", Area);
     printf("PIB: %.2f\n", PIB);
     printf("Numero de Pontos Turisticos: %d\n", PontosTuristicos);  
-    printf("A Densidade populaçional é: %f \n", DensidadePopulacional);
-    printf("O Pib Per Capta é de: %f \n", PibPerCapta);
+    printf("A Densidade populaçional é: %.3f \n", DensidadePopulacional);
+    printf("O Pib Per Capta é de: %.2f \n", PibPerCapta);
 
     return 0;
 
