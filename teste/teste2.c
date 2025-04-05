@@ -9,9 +9,9 @@ int main() {
     char Cidade[20] = "Salvador";
     int Populacao = 2418000;
     float Area = 693.8;
-    float PIB = 62.954;
+    float PIB = 21.8;
     int PontosTuristicos = 20;
-    //Inserindo novas variáveis par o nivel intermediário
+    //Inserindo novas variáveis para o nivel intermediário
     float DensidadePopulacional = Populacao / Area;
     float PibPerCapta = Populacao / PIB;
 
@@ -19,9 +19,9 @@ int main() {
     printf("Digite o Estado: ");
     scanf("%s", Estado);
     printf("Digite o Codigo da Carta: ");
-    scanf("%s", CodigodaCarta);
+    scanf("%s", &CodigodaCarta);
     printf("Digite o Nome da cidade: ");
-    scanf("%s", Cidade);
+    scanf("%s", &Cidade);
     printf("Digite a Populacao: ");
     scanf("%d", &Populacao);
     printf("Digite a Area: ");
@@ -39,9 +39,11 @@ int main() {
     printf("Area: %.2f\n", Area);
     printf("PIB: %.2f\n", PIB);
     printf("Numero de Pontos Turisticos: %d\n", PontosTuristicos);  
-    printf("A Densidade populaçional é: %.3f \n", DensidadePopulacional);
+    //inserindo novas funcionalidade de divisão e exibição
+    printf("A Densidade populaçional é: %.2f \n", DensidadePopulacional);
     printf("O Pib Per Capta é de: %.2f \n", PibPerCapta);
 
-    return 0;
+   return 0;
 
+  
 }
