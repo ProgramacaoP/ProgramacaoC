@@ -21,3 +21,4 @@ int main() {
     printf("A Média é: %d\n", media);
 
     return 0;    
+}
